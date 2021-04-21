@@ -2,6 +2,11 @@
     margin: 0;
 }
 
+body{
+
+    background-color: #dddddd;
+}
+
 #interface{
 
     width: 400px;
