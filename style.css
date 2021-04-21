@@ -18,12 +18,43 @@ body{
 }
 
 header {
-    
+
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    top: 30px;
+    background: url(images/glass-logo-peq.jpg)no-repeat 0px 80px;
 }
+
+header h1{
+
+    font-family:  'Roboto', sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0,0, 0.6);
+}
+
+header h2{
+
+     font-family: 'Roboto', sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0%;
+    margin: 0%;
+}
+
+h1{
+    font-family: 'Orelega One', cursive;
+}
+
+h2{
+    font-family: 'Orelega One', cursive;
+}
+ 
 
 p{
     text-align: justify;
     text-indent: 50px;
+    font-family: Arial, Helvetica, sans-serif
 }
 .foto-legenda{
 
@@ -73,6 +104,6 @@ nav h1{
 
 #icone{
     position: absolute;
-    left: 780px;
+    left: 900px;
     top: 50px;
 }
