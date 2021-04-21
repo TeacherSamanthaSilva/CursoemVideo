@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 p{
     text-align: justify;
     text-indent: 50px;
@@ -5,4 +9,45 @@ p{
 .foto-legenda{
 
     border: 2px solid white;
+}
+
+nav{
+
+    display: block;
+}
+
+nav  ul{
+
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    left: 600px;
+
+}
+
+nav li{
+
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: #606060;
+    color: white;
+    text-decoration: underline;
+    
+}
+
+nav h1{
+
+    display: none;
 }
