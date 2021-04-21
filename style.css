@@ -9,10 +9,16 @@ body{
 
 #interface{
 
-    width: 400px;
+    width: 900px;
     background-color: #ffffff;
-    margin: 10px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0,0, 0.5);
+    padding: 10px;
 
+}
+
+header {
+    
 }
 
 p{
@@ -63,4 +69,10 @@ nav li a:hover{
 nav h1{
 
     display: none;
+}
+
+#icone{
+    position: absolute;
+    left: 780px;
+    top: 50px;
 }
