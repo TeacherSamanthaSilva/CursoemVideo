@@ -28,6 +28,8 @@ a:hover{
 
 }
 
+/* cabeçalho */
+
 header {
 
     border-bottom: 1px #606060 solid;
@@ -97,6 +99,8 @@ p{
     
 }
 
+/* menu */
+
 nav{
 
     display: block;
@@ -165,6 +169,8 @@ article h3{
 
 }
 
+/* tabela */
+
 table{
     border: 1px solid #606060;
     border-spacing: 0px;
@@ -220,6 +226,7 @@ aside{
     
 }
 
+/* rodapé */
 footer{
 
     clear: both;
