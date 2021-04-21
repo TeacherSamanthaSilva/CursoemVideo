@@ -2,6 +2,12 @@
     margin: 0;
 }
 
+#interface{
+
+    width: 400px;
+
+}
+
 p{
     text-align: justify;
     text-indent: 50px;
